@@ -11,14 +11,15 @@ class test{
         }
     }
 
-
-
     public class construct
     {
         public static void main(String[] args) {
 
             test obj = new test (51,"Test",45);
-            System.out.println(obj.marks);
+            test obj2 = new test (34,"TEst2" , 98);
+            System.out.println(obj.marks +" \n"+ obj.Name  + "\n" +  obj.roll);
+            System.out.println(obj2.marks +" "+ obj2.Name  + " " +  obj2.roll);
+
         }
     }
     
