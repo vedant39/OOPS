@@ -5,11 +5,15 @@ class Human
      private int age ;
      private String name ;
 
-    public  Human()
+    public Human() 
     {
         age = 12;
-        name = "xzy";
-        System.out.println("Print in constructor");
+        name = "default";
+    }
+
+    public Human(int age, String name) {
+        this.age = age;
+        this.name = name;
     }
 
     public int getAge() {
@@ -28,17 +32,17 @@ class Human
         this.name = name;
     }
 
-     
-
-}
+} 
 
 
 public class construct
 {
     public static void main(String[] args) 
     {
-      Human obj = new Human();
+      Human obj = new Human(); 
+      Human obj1 = new Human(14 , "hehe");
       System.out.println(obj.getName() + ":" + obj.getAge());
+      System.out.println(obj1.getName() + ":" + obj1.getAge());
       //obj.age = 19;
      // obj1.name = "Vedant";
 
