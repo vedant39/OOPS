@@ -1,3 +1,5 @@
+package Calculator;
+
 
 public class Calc 
 {
@@ -12,4 +14,3 @@ public class Calc
     }
 } 
     
-

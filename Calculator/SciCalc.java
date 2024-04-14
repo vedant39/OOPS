@@ -1,3 +1,5 @@
+package Calculator;
+
 public class SciCalc {
     public double power( int n1 , int n2 )
     {

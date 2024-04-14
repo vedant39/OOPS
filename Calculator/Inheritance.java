@@ -1,6 +1,4 @@
-
-
-
+package Calculator;
 
 public class Inheritance {
     
